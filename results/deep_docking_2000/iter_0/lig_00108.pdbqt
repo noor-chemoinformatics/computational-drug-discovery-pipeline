@@ -1,0 +1,39 @@
+REMARK SMILES Cc1nc(C)c(CCNCCc2sc(C)nc2C)s1
+REMARK SMILES IDX 9 1 8 3 7 4 6 5 2 6 3 7 19 8 4 9 1 10 5 11 10 12 11 13 12 14
+REMARK SMILES IDX 17 15 13 16 16 17 14 18 18 19 15 20
+REMARK H PARENT 9 2
+ROOT
+ATOM      1  N   UNL     1      -0.064  -0.707  -1.594  1.00  0.00    -0.316 NA
+ATOM      2  H   UNL     1      -0.103  -1.715  -1.748  1.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1      -1.379  -0.217  -1.161  1.00  0.00    +0.086 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      -1.986  -0.991   0.020  1.00  0.00    +0.064 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1      -3.353  -0.482   0.365  1.00  0.00    +0.029 A 
+ATOM      6  C   UNL     1      -5.736  -0.088   0.548  1.00  0.00    +0.090 A 
+ATOM      7  N   UNL     1      -5.086   0.766   1.307  1.00  0.00    -0.247 NA
+ATOM      8  S   UNL     1      -4.755  -1.196  -0.320  1.00  0.00    -0.124 S 
+ATOM      9  C   UNL     1      -3.721   0.550   1.213  1.00  0.00    +0.052 A 
+ATOM     10  C   UNL     1      -7.216  -0.138   0.413  1.00  0.00    +0.079 C 
+ATOM     11  C   UNL     1      -2.814   1.421   2.006  1.00  0.00    +0.068 C 
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  C   UNL     1       1.006  -0.385  -0.645  1.00  0.00    +0.086 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       2.372  -0.790  -1.219  1.00  0.00    +0.064 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       3.485  -0.449  -0.275  1.00  0.00    +0.029 A 
+ATOM     15  C   UNL     1       4.217   0.721  -0.163  1.00  0.00    +0.052 A 
+ATOM     16  S   UNL     1       4.029  -1.587   0.889  1.00  0.00    -0.124 S 
+ATOM     17  N   UNL     1       5.181   0.710   0.832  1.00  0.00    -0.247 NA
+ATOM     18  C   UNL     1       5.183  -0.449   1.452  1.00  0.00    +0.090 A 
+ATOM     19  C   UNL     1       4.068   1.951  -0.986  1.00  0.00    +0.068 C 
+ATOM     20  C   UNL     1       6.097  -0.803   2.571  1.00  0.00    +0.079 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6

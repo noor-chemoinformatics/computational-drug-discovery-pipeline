@@ -16,8 +16,10 @@ import pandas as pd
 from tqdm import tqdm
 from rdkit import Chem
 from rdkit.Chem import AllChem
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.*')
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, KFold
 from sklearn.metrics import r2_score, mean_squared_error
 
 
@@ -113,8 +115,8 @@ def dock_batch(smiles_list, receptor_pdbqt, work_dir, center,
     return results
 
 
-def train_model(smiles_list, scores):
-    """Train Random Forest on fingerprints."""
+def train_model(smiles_list, scores, n_folds=5, output_dir=None, iteration=None):
+    """Train Random Forest with K-fold cross-validation."""
     X, y = [], []
     for smi, score in zip(smiles_list, scores):
         if score is None:
@@ -128,22 +130,52 @@ def train_model(smiles_list, scores):
     X = np.array(X)
     y = np.array(y)
 
-    if len(X) < 10:
-        print("Not enough data to train")
+    if len(X) < n_folds:
+        print(f"Not enough data to train ({len(X)} samples < {n_folds} folds)")
         return None, None, None
 
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
-    )
+    # K-fold cross-validation
+    kf = KFold(n_splits=n_folds, shuffle=True, random_state=42)
+    r2_scores = []
+    rmse_scores = []
 
-    model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
-    model.fit(X_train, y_train)
+    for train_idx, test_idx in kf.split(X):
+        X_train, X_test = X[train_idx], X[test_idx]
+        y_train, y_test = y[train_idx], y[test_idx]
 
-    y_pred = model.predict(X_test)
-    r2 = r2_score(y_test, y_pred)
-    rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+        model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
 
-    return model, r2, rmse
+        r2_scores.append(r2_score(y_test, y_pred))
+        rmse_scores.append(np.sqrt(mean_squared_error(y_test, y_pred)))
+
+    # Train final model on all data for prediction
+    final_model = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
+    final_model.fit(X, y)
+
+    r2_mean = np.mean(r2_scores)
+    r2_std = np.std(r2_scores)
+    rmse_mean = np.mean(rmse_scores)
+    rmse_std = np.std(rmse_scores)
+
+    print(f"CV R² ({n_folds}-fold): {r2_mean:.3f} +/- {r2_std:.3f}")
+    print(f"CV RMSE ({n_folds}-fold): {rmse_mean:.3f} +/- {rmse_std:.3f} kcal/mol")
+
+    # Save per-fold results
+    if output_dir is not None and iteration is not None:
+        cv_df = pd.DataFrame({
+            "fold": list(range(1, n_folds + 1)),
+            "r2": r2_scores,
+            "rmse": rmse_scores,
+        })
+        cv_path = os.path.join(output_dir, f"cv_results_iter_{iteration}.csv")
+        cv_df.to_csv(cv_path, index=False)
+        print(f"Saved CV results to {cv_path}")
+
+    return final_model, r2_mean, rmse_mean
+
+  
 
 
 def predict_scores(model, smiles_list):
@@ -201,7 +233,12 @@ def deep_docking(library_file, receptor_pdbqt, output_dir, center,
             break
 
         print("Training ML model...")
-        model, r2, rmse = train_model(sampled_smiles, sampled_scores)
+        model, r2, rmse = train_model(
+    sampled_smiles, sampled_scores,
+    n_folds=5,
+    output_dir=output_dir,
+    iteration=iteration,
+)
         print(f"Model R²: {r2:.3f}, RMSE: {rmse:.3f}")
 
         print("Predicting scores for remaining compounds...")

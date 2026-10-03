@@ -1,0 +1,261 @@
+MODEL 1
+REMARK VINA RESULT:   -10.019      0.000      0.000
+REMARK INTER + INTRA:         -10.019
+REMARK INTER:                 -10.019
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -25.046   9.906   5.808  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -26.136   9.583   6.268  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -27.299  10.493   6.151  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -28.544  10.124   6.675  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -28.759   8.807   7.372  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -27.554   7.911   7.471  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -26.309   8.279   6.947  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -25.209   7.417   7.059  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -25.347   6.184   7.693  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -26.582   5.808   8.218  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -27.678   6.665   8.109  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -29.623  11.014   6.545  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -29.460  12.243   5.906  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -28.218  12.600   5.387  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -27.139  11.728   5.509  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -9.997      0.036      4.798
+REMARK INTER + INTRA:          -9.997
+REMARK INTER:                  -9.997
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -25.026   9.911   5.811  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -26.115   9.578   6.267  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -26.278   8.269   6.942  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -27.520   7.889   7.462  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -28.733   8.775   7.364  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -28.528  10.095   6.672  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -27.286  10.477   6.151  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -27.134  11.715   5.513  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -28.222  12.580   5.392  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -29.462  12.209   5.907  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -29.616  10.976   6.542  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -27.635   6.640   8.095  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -26.531   5.792   8.204  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -25.300   6.180   7.683  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -25.171   7.416   7.052  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -9.681      1.361      5.385
+REMARK INTER + INTRA:          -9.681
+REMARK INTER:                  -9.681
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -29.568   8.923   7.497  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -28.435   9.132   7.077  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -27.370   8.117   7.254  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -26.076   8.356   6.776  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -25.708   9.632   6.069  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -26.816  10.638   5.909  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -28.110  10.401   6.387  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -29.116  11.362   6.219  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -28.836  12.564   5.572  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -27.551  12.810   5.092  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -26.548  11.855   5.259  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -25.093   7.369   6.963  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -25.399   6.173   7.614  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -26.689   5.946   8.086  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -27.674   6.915   7.908  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -9.680      1.362      2.473
+REMARK INTER + INTRA:          -9.680
+REMARK INTER:                  -9.680
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -29.551   8.945   7.495  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -28.421   9.154   7.067  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -28.104  10.423   6.372  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -26.814  10.661   5.882  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -25.704   9.657   6.034  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -26.065   8.380   6.745  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -27.354   8.140   7.235  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -27.652   6.939   7.892  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -26.664   5.971   8.064  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -25.378   6.199   7.580  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -25.079   7.394   6.924  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -26.553  11.877   5.228  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -27.558  12.831   5.069  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -28.838  12.585   5.560  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -29.112  11.383   6.210  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -8.896      2.255      4.803
+REMARK INTER + INTRA:          -8.896
+REMARK INTER:                  -8.896
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -27.525   8.220   6.899  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -28.430   9.037   6.772  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -29.818   8.686   7.154  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -30.851   9.619   7.008  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -30.609  11.002   6.465  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -29.188  11.320   6.088  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -28.153  10.389   6.233  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -26.841  10.722   5.870  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -26.555  11.988   5.362  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -27.578  12.923   5.213  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -28.885  12.593   5.573  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -32.154   9.249   7.381  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -32.415   7.975   7.889  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -31.380   7.055   8.030  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -30.083   7.408   7.663  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.679      6.503      7.800
+REMARK INTER + INTRA:          -7.679
+REMARK INTER:                  -7.679
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -31.798   5.845   9.650  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -32.569   5.514   8.755  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -32.574   6.236   7.462  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -33.454   5.858   6.441  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -34.423   4.719   6.603  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -34.389   4.010   7.930  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -33.510   4.387   8.952  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -33.507   3.702  10.175  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -34.382   2.637  10.384  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -35.261   2.254   9.373  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -35.266   2.935   8.155  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -33.428   6.568   5.229  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -32.542   7.631   5.044  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -31.671   7.998   6.065  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -31.685   7.304   7.273  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.668      6.542      8.765
+REMARK INTER + INTRA:          -7.668
+REMARK INTER:                  -7.668
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -31.897   5.829   9.668  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -32.634   5.492   8.747  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -33.563   4.350   8.908  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -34.404   3.966   7.857  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -34.407   4.682   6.533  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -33.449   5.836   6.408  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -32.608   6.221   7.458  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -31.729   7.302   7.304  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -31.686   8.004   6.101  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -32.520   7.629   5.050  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -33.395   6.553   5.200  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -35.272   2.877   8.048  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -35.296   2.190   9.262  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -34.456   2.580  10.301  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -33.590   3.658  10.126  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.527      4.630      6.465
+REMARK INTER + INTRA:          -7.527
+REMARK INTER:                  -7.527
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -30.295   5.117   9.158  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -30.920   5.969   8.536  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -32.384   5.838   8.347  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -33.097   6.810   7.637  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -32.425   8.017   7.039  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -30.939   8.114   7.251  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -30.224   7.143   7.961  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -28.839   7.268   8.138  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -28.161   8.364   7.608  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -28.863   9.337   6.899  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -30.242   9.214   6.721  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -34.484   6.651   7.479  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -35.140   5.544   8.020  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -34.422   4.583   8.725  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -33.045   4.727   8.889  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.303      8.681     10.255
+REMARK INTER + INTRA:          -7.303
+REMARK INTER:                  -7.303
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK SMILES O=C1c2ccccc2Cc2ccccc21
+REMARK SMILES IDX 1 1 2 2 15 3 10 4 9 5 8 6 3 7 4 8 5 9 6 10 7 11 11 12 12 13
+REMARK SMILES IDX 13 14 14 15
+REMARK H PARENT
+ROOT
+ATOM      1  O   UNL     1     -35.494   6.605   8.191  1.00  0.00    -0.289 OA
+ATOM      2  C   UNL     1     -35.430   5.576   8.856  1.00  0.00    +0.193 C 
+ATOM      3  C   UNL     1     -36.658   4.976   9.429  1.00  0.00    +0.026 A 
+ATOM      4  C   UNL     1     -36.585   3.802  10.188  1.00  0.00    -0.032 A 
+ATOM      5  C   UNL     1     -35.280   3.103  10.457  1.00  0.00    +0.072 C 
+ATOM      6  C   UNL     1     -34.057   3.743   9.859  1.00  0.00    -0.032 A 
+ATOM      7  C   UNL     1     -34.127   4.917   9.100  1.00  0.00    +0.026 A 
+ATOM      8  C   UNL     1     -32.965   5.484   8.559  1.00  0.00    +0.012 A 
+ATOM      9  C   UNL     1     -31.726   4.881   8.773  1.00  0.00    +0.001 A 
+ATOM     10  C   UNL     1     -31.645   3.713   9.528  1.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -32.801   3.147  10.068  1.00  0.00    +0.005 A 
+ATOM     12  C   UNL     1     -37.771   3.263  10.715  1.00  0.00    +0.005 A 
+ATOM     13  C   UNL     1     -39.000   3.885  10.486  1.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -39.061   5.052   9.729  1.00  0.00    +0.001 A 
+ATOM     15  C   UNL     1     -37.893   5.598   9.201  1.00  0.00    +0.012 A 
+ENDROOT
+TORSDOF 0
+ENDMDL
