@@ -1,7 +1,5 @@
- # computational-drug-discovery-pipeline
+ # Computational-drug-discovery-pipeline
 Computational drug discovery pipeline for structure-based virtual screening. Combines deep docking (ML-accelerated screening of ultra-large libraries), multi-criteria hit selection (consensus docking, ADMET, diversity, interaction fingerprints), relative binding free energy calculations (OpenFE), and molecular dynamics.
-<br>
-Author-ManahilNoor
 <br>
 A modular, reproducible pipeline for **structure-based virtual screening** from ultra-large chemical libraries down to a prioritized shortlist of compounds for experimental testing.
 
@@ -10,13 +8,11 @@ Combines **deep docking** (machine learning-accelerated screening), **multi-crit
 Designed as a **generalizable toolkit** applicable to any protein target with a known or predicted structure.
 # Computational Drug Discovery Pipeline
 
-A modular, reproducible virtual screening pipeline for structure-based drug discovery: molecular docking, ML-accelerated deep docking, and drug-like hit selection.
-
 Built with Python, RDKit, AutoDock Vina, and Meeko. Validated on a test system (lysozyme + NAG) and demonstrated on a 500-compound chemical library.
 
 **Status:** Working prototype — validated on a test system, not yet applied to a real drug target.
 
----## What This Pipeline Does
+ **What This Pipeline Does**
 
 This project implements the core computational workflow used in early-stage drug discovery:
 
@@ -28,7 +24,7 @@ This project implements the core computational workflow used in early-stage drug
 
 The pipeline is generalizable — any protein with a known or predicted structure can be used as a target.
 
----## Pipeline at a Glance
+**Pipeline at a Glance**
 
 1. PROTEIN PREPARATION — PDB -> clean -> add hydrogens -> PDBQT
 2. LIGAND PREPARATION — SMILES -> 3D conformer -> hydrogens -> PDBQT
@@ -36,7 +32,7 @@ The pipeline is generalizable — any protein with a known or predicted structur
 4. DEEP DOCKING (ML-ACCELERATED) — sample -> train Random Forest -> predict -> filter -> repeat
 5. HIT SELECTION — Lipinski filter -> property calculation -> top N shortlist
 
----## Results
+**Results**
 
 ### 1. Single Docking — Validation on a Test System
 
@@ -73,7 +69,7 @@ Compounds were filtered using Lipinski's Rule of Five (MW <= 500, logP <= 5, HBD
 
 Top 20 drug-like hits: results/tables/top_hits_shortlist.csv
 
----## Installation
+## Installation
 
 Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 
@@ -84,7 +80,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
     python -c "import numpy, pandas, rdkit, sklearn, prolif, meeko; print('All packages OK')"
     vina --version
 
----## Project Structure
+## 5. Project Structure
 
     computational-drug-discovery-pipeline/
     |-- README.md
@@ -106,7 +102,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
     |-- docs/
     |-- tests/
 
----## Methods
+## 6. Methods
 
 | Stage | Tool | Purpose |
 |-------|------|---------|
@@ -118,7 +114,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 | Drug-likeness | RDKit (Lipinski descriptors) | Filter for drug-like compounds |
 | Visualization | Matplotlib | Score distributions, metrics |
 
----## Limitations
+## 7. Limitations
 
 1. Validated on a test system only — lysozyme, not a real drug target
 2. Small library — 500 compounds for deep docking; real runs use millions
@@ -126,7 +122,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 4. No RBFE or MD yet — these are planned next
 5. ML applicability domain — Random Forest is limited to training chemical space
 
-## Roadmap
+## 8. Roadmap
 
 - [x] Single docking validated against known complex
 - [x] Batch docking of chemical library
@@ -138,7 +134,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 - [ ] Interaction fingerprints (ProLIF)
 - [ ] Scale to ultra-large libraries (millions of compounds)
 
----## Author
+## 9. Author
 
 **Manahil Noor**
 Master 2 Student
