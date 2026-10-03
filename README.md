@@ -68,7 +68,19 @@ The Random Forest model predicted docking scores with RMSE < 0.8 kcal/mol, accur
 Compounds were filtered using Lipinski's Rule of Five (MW <= 500, logP <= 5, HBD <= 5, HBA <= 10) and physicochemical properties calculated with RDKit.
 
 Top 20 drug-like hits: results/tables/top_hits_shortlist.csv
+### 5. β2AR Validation (Real GPCR Target)
 
+To validate the pipeline on a real drug target, we applied it to the beta-2 adrenergic receptor (β2AR), a well-characterized GPCR.
+
+| Metric | Value |
+|--------|-------|
+| Protein | β2AR (PDB: 2RH1) |
+| Ligand | Carazolol (inverse agonist, Ki ~1 nM) |
+| Best docking affinity | -10.04 kcal/mol |
+| RMSD vs crystal pose | 1.74 Å |
+| Result | Validation PASSED |
+
+This confirms the pipeline can recover correct binding poses for a real GPCR target.
 ## Installation
 
 Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
