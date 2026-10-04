@@ -1,0 +1,6 @@
+Total compounds in library: 2020
+Total actives in library: 20
+Final shortlist size: 100
+Actives recovered: 0
+Recall: 0.0%
+Enrichment factor: 0.00
