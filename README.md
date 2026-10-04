@@ -81,6 +81,22 @@ To validate the pipeline on a real drug target, we applied it to the beta-2 adre
 | Result | Validation PASSED |
 
 This confirms the pipeline can recover correct binding poses for a real GPCR target.
+### 6. GPR35 — Application to the Internship Target
+
+GPR35 is an orphan GPCR and the therapeutic target of interest for inflammatory bowel disease (IBD). No experimental crystal structure is available; we used the AlphaFold prediction (UniProt Q9HC97, v6).
+
+| Metric | Value |
+|--------|-------|
+| Protein | GPR35 (AlphaFold, Q9HC97) |
+| Ligands | 10 known GPR35 agonists |
+| Docking | Blind docking, 40x40x40 A box |
+| Best affinity | -6.52 kcal/mol |
+| Status | Work in progress — requires experimental validation |
+
+This step connects the pipeline directly to the internship's target of interest. Future work will include:
+- Ensemble docking from MD conformations
+- RBFE calculations with OpenFE
+- Interaction fingerprint analysis for biased agonism
 ## Installation
 
 Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
