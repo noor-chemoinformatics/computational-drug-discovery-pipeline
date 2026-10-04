@@ -1,0 +1,3 @@
+Estimated binding site center: (-1.59, 1.18, -0.56)
+Center: -1.59 1.18 -0.56
+Box size: 40 40 40
