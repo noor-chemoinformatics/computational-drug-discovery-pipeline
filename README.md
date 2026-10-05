@@ -108,29 +108,6 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
     python -c "import numpy, pandas, rdkit, sklearn, prolif, meeko; print('All packages OK')"
     vina --version
 
-## 5. Project Structure
-
-    computational-drug-discovery-pipeline/
-    |-- README.md
-    |-- LICENSE
-    |-- environment.yml
-    |-- requirements.txt
-    |-- data/
-    |   |-- raw/                       # Raw downloaded data
-    |   |-- processed/                 # Cleaned, prepared PDBQT files
-    |-- scripts/
-    |   |-- common/                    # Reusable utility scripts
-    |   |-- pipeline/                  # Main pipeline scripts
-    |   |-- targets/                   # Target-specific scripts
-    |-- results/
-    |   |-- tables/                    # CSV results
-    |   |-- figures/                   # Plots
-    |   |-- deep_docking_test/         # Deep docking outputs
-    |-- notebooks/
-    |-- docs/
-    |-- tests/
-
-## 6. Methods
 
 | Stage | Tool | Purpose |
 |-------|------|---------|
@@ -147,8 +124,6 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 1. Validated on a test system only — lysozyme, not a real drug target
 2. Small library — 500 compounds for deep docking; real runs use millions
 3. No experimental validation — all results are computational predictions
-4. No RBFE or MD yet — these are planned next
-5. ML applicability domain — Random Forest is limited to training chemical space
 
 ## 8. Roadmap
 
@@ -156,7 +131,7 @@ Requires Linux (Ubuntu 20.04+ or WSL2 on Windows) and Miniconda.
 - [x] Batch docking of chemical library
 - [x] Deep docking (ML-accelerated screening)
 - [x] Drug-likeness filtering and hit selection
-- [ ] Apply pipeline to a real GPCR target (B2AR, GPR35)
+- [x] Apply pipeline to a real GPCR target (B2AR, GPR35)
 - [ ] Relative binding free energy calculations (OpenFE)
 - [ ] Molecular dynamics simulations (GROMACS)
 - [ ] Interaction fingerprints (ProLIF)
