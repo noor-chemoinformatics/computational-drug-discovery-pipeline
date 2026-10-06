@@ -1,0 +1,14 @@
+REMARK SMILES CC1=NN(C)C(=O)C1
+REMARK SMILES IDX 5 1 4 2 3 3 2 4 1 5 8 6 6 7 7 8
+REMARK H PARENT
+ROOT
+ATOM      1  C   UNL     1      -2.515   0.330  -0.418  1.00  0.00    +0.177 C 
+ATOM      2  N   UNL     1      -1.139   0.011  -0.137  1.00  0.00    -0.237 N 
+ATOM      3  N   UNL     1      -0.143   0.932  -0.368  1.00  0.00    -0.180 NA
+ATOM      4  C   UNL     1       0.965   0.352  -0.020  1.00  0.00    +0.045 C 
+ATOM      5  C   UNL     1       2.304   0.996  -0.107  1.00  0.00    +0.064 C 
+ATOM      6  C   UNL     1       0.793  -1.047   0.488  1.00  0.00    +0.155 C 
+ATOM      7  C   UNL     1      -0.692  -1.206   0.374  1.00  0.00    +0.248 C 
+ATOM      8  O   UNL     1      -1.337  -2.196   0.672  1.00  0.00    -0.273 OA
+ENDROOT
+TORSDOF 0

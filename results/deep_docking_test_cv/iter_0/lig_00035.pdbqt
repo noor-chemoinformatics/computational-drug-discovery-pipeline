@@ -1,0 +1,20 @@
+REMARK SMILES CC(=S)SCC(C)C
+REMARK SMILES IDX 5 1 6 2 7 3 8 4 4 5 2 6 3 7 1 8
+REMARK H PARENT
+ROOT
+ATOM      1  C   UNL     1      -0.103   0.475   0.951  1.00  0.00    +0.078 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -0.967   0.041  -0.246  1.00  0.00    -0.007 C 
+ATOM      3  C   UNL     1      -1.990  -1.036   0.121  1.00  0.00    +0.008 C 
+ATOM      4  C   UNL     1      -1.694   1.263  -0.818  1.00  0.00    +0.008 C 
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  S   UNL     1       0.935  -0.843   1.661  1.00  0.00    -0.119 SA
+BRANCH   5   6
+ATOM      6  C   UNL     1       2.080  -1.100   0.352  1.00  0.00    +0.045 C 
+ATOM      7  S   UNL     1       2.199  -2.562  -0.456  1.00  0.00    -0.078 S 
+ATOM      8  C   UNL     1       2.953   0.070  -0.019  1.00  0.00    +0.065 C 
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
