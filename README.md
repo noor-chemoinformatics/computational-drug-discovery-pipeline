@@ -92,9 +92,57 @@ GPR35 is an orphan GPCR and the therapeutic target of interest for inflammatory 
 | Docking | Blind docking, 40x40x40 A box |
 | Best affinity | -6.52 kcal/mol |
 | Status | Work in progress — requires experimental validation |
+### Molecular Dynamics (GROMACS)
 
-This step connects the pipeline directly to the internship's target of interest. Future work will include:
-- Ensemble docking from MD conformations
+Ran a 0.5 ns production MD simulation of GPR35 in explicit water to assess structural stability.
+
+**Setup:**
+
+- System preparation: pdb2gmx, editconf, solvate, genion
+- Energy minimization (steepest descent, converged)
+- NVT equilibration
+- NPT equilibration
+- Production MD (0.5 ns)
+- Trajectory analysis: RMSD, RMSF, radius of gyration, hydrogen bonds
+
+**Results:**
+
+| Analysis | Observation |
+|----------|-------------|
+| Backbone RMSD | Stable over 0.5 ns |
+| RMSF | Per-residue flexibility consistent with folded protein |
+| Radius of gyration | Compact, no expansion |
+| Hydrogen bonds | 249–265 H-bonds stable throughout |
+
+![MD analysis](results/gpr35/md/md_analysis.png)
+
+**Tools:** GROMACS, MDAnalysis, Matplotlib
+This step connects the pipeline directly to the internship's target of interest. Future work will include### Molecular Dynamics (GROMACS)
+
+Ran a 0.5 ns production MD simulation of GPR35 in explicit water to assess structural stability.
+
+**Setup:**
+
+- System preparation: pdb2gmx, editconf, solvate, genion
+- Energy minimization (steepest descent, converged)
+- NVT equilibration
+- NPT equilibration
+- Production MD (0.5 ns)
+- Trajectory analysis: RMSD, RMSF, radius of gyration, hydrogen bonds
+
+**Results:**
+
+| Analysis | Observation |
+|----------|-------------|
+| Backbone RMSD | Stable over 0.5 ns |
+| RMSF | Per-residue flexibility consistent with folded protein |
+| Radius of gyration | Compact, no expansion |
+| Hydrogen bonds | 249–265 H-bonds stable throughout |
+
+![MD analysis](results/gpr35/md/md_analysis.png)
+
+**Tools:** GROMACS, MDAnalysis, Matplotlib
+Future work include:
 - RBFE calculations with OpenFE
 - Interaction fingerprint analysis for biased agonism
 ## Installation
