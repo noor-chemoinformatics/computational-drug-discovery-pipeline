@@ -1,0 +1,10 @@
+O=C(O)C1=CC=CC=C1N2C=CC3=C2C=CC=C3	Kynurenic_acid
+O=C1NC(=O)C2=C1C=CC=C2	Zaprinast
+O=C(N)C1=CC(=CC=C1)C(=O)NC2=CC=CC=C2	Lodoxamide
+O=C(O)C1=CC=CC=C1O	Salicylic_acid
+O=C(NC1=CC=CC=C1)C2=CC=CC=C2	Benzanilide
+O=C1NC2=CC=CC=C2C(=O)N1	Phthalimide
+O=C(O)C1=CC=CC=C1Cl	Chlorobenzoic_acid
+O=C(O)C1=CC=CC=C1F	Fluorobenzoic_acid
+O=C(N)C1=CC=CC=C1	Benzamide
+O=C(O)C1=CC=CC=C1[N+](=O)[O-]	Nitrobenzoic_acid

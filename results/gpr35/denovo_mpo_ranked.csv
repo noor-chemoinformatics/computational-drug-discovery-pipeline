@@ -1,0 +1,9 @@
+Ligand,SMILES,Docking (kcal/mol),MW,LogP,MPO Score
+DeNovo_20,c1cc(-n2ccc3ccccc32)cc(-n2ccc3ccccc32)c1,-10.57,308.4,5.57,0.707
+DeNovo_19,Fc1ccccc1-c1cccc(-n2ccc3ccccc32)c1,-10.56,287.3,5.44,0.706
+DeNovo_7,O=C(O)c1ccccc1-c1ccccc1-c1ccccc1C(=O)O,-9.047,318.3,4.42,0.705
+DeNovo_12,O=[N+]([O-])c1ccccc1-c1cccc(-c2ccccc2[N+](=O)[O-])c1,-8.851,320.3,4.84,0.685
+DeNovo_15,O=[N+]([O-])c1ccccc1-c1ccccc1-c1ccccc1[N+](=O)[O-],-8.642,320.3,4.84,0.664
+DeNovo_18,Fc1ccccc1-c1cccc(-c2ccccc2F)c1,-10.01,266.3,5.3,0.651
+DeNovo_16,Fc1ccccc1-n1ccc2ccccc21,-8.324,211.2,3.77,0.632
+DeNovo_3,c1ccc(-n2ccc3ccccc32)cc1,-8.2,193.2,3.63,0.62

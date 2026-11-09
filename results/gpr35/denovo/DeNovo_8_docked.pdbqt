@@ -1,0 +1,333 @@
+MODEL 1
+REMARK VINA RESULT:    -7.684      0.000      0.000
+REMARK INTER + INTRA:          -9.070
+REMARK INTER:                  -8.582
+REMARK INTRA:                  -0.488
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     145.092 138.867 161.544  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     144.147 138.402 160.614  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     142.790 138.493 160.910  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     142.382 139.045 162.122  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     143.330 139.500 163.047  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     144.712 139.419 162.783  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     145.660 139.875 163.812  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     146.326 141.106 163.685  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     147.221 141.541 164.667  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     147.464 140.755 165.794  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     146.810 139.534 165.939  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     145.919 139.107 164.956  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     145.298 137.930 165.124  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     147.122 137.782 161.512  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     146.493 138.789 161.156  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     146.945 139.706 160.456  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.314      3.007      3.311
+REMARK INTER + INTRA:          -8.657
+REMARK INTER:                  -8.334
+REMARK INTRA:                  -0.323
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     142.402 139.206 163.365  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     141.493 138.517 162.544  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     141.949 137.480 161.735  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     143.299 137.136 161.747  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     144.200 137.832 162.563  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     143.775 138.889 163.391  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     144.775 139.611 164.194  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     145.562 140.625 163.624  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     146.507 141.315 164.391  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     146.678 141.004 165.739  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     145.904 140.004 166.323  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     144.965 139.322 165.553  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     144.226 138.368 166.141  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     141.430 141.271 163.669  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     141.856 140.247 164.223  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     141.808 140.019 165.440  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.274      2.341      2.972
+REMARK INTER + INTRA:          -8.612
+REMARK INTER:                  -8.649
+REMARK INTRA:                   0.037
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     142.163 138.164 161.030  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     140.801 138.153 160.686  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     139.915 138.988 161.361  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     140.387 139.827 162.368  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     141.745 139.828 162.710  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     142.669 138.992 162.051  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     144.076 139.007 162.484  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     145.111 139.229 161.561  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     146.447 139.251 161.975  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     146.769 139.053 163.318  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     145.755 138.835 164.247  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     144.427 138.815 163.827  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     143.469 138.610 164.745  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     143.395 136.236 160.778  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     143.046 137.304 160.255  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     143.345 137.673 159.111  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.235      2.961      5.090
+REMARK INTER + INTRA:          -8.569
+REMARK INTER:                  -8.355
+REMARK INTRA:                  -0.214
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     145.146 139.719 164.775  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     146.478 139.988 165.129  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     147.453 140.050 164.137  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     147.098 139.846 162.806  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     145.768 139.572 162.462  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     144.757 139.497 163.439  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     143.386 139.164 163.021  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     142.332 140.073 163.212  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     141.031 139.757 162.807  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     140.763 138.530 162.201  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     141.796 137.617 162.000  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     143.089 137.939 162.406  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     144.067 137.045 162.194  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     143.810 138.611 166.288  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     144.165 139.716 165.852  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     143.794 140.813 166.292  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.123      2.384      3.310
+REMARK INTER + INTRA:          -8.444
+REMARK INTER:                  -8.221
+REMARK INTRA:                  -0.223
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     144.622 138.751 161.633  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     145.423 138.665 160.482  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     146.704 139.210 160.496  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     147.178 139.834 161.647  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     146.371 139.922 162.788  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     145.068 139.386 162.810  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     144.252 139.546 164.024  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     143.054 140.279 163.996  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     142.276 140.424 165.149  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     142.681 139.837 166.347  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     143.863 139.103 166.393  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     144.633 138.963 165.240  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     145.764 138.244 165.310  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     143.198 137.004 162.102  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     143.312 138.120 161.573  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     142.391 138.759 161.046  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.108      1.415      2.018
+REMARK INTER + INTRA:          -8.427
+REMARK INTER:                  -8.403
+REMARK INTRA:                  -0.023
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     144.068 138.766 162.087  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     142.913 138.500 161.333  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     141.681 138.977 161.774  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     141.607 139.713 162.954  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     142.763 139.969 163.703  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     144.025 139.497 163.290  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     145.196 139.761 164.141  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     145.275 139.238 165.442  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     146.393 139.484 166.247  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     147.450 140.254 165.763  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     147.391 140.777 164.473  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     146.275 140.528 163.678  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     146.247 141.038 162.437  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     145.676 138.714 160.440  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     145.332 138.282 161.549  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     145.999 137.514 162.257  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.057      2.902      3.431
+REMARK INTER + INTRA:          -8.370
+REMARK INTER:                  -7.830
+REMARK INTRA:                  -0.540
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     144.073 139.485 164.036  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     143.000 139.030 163.252  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     143.206 138.748 161.905  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     144.472 138.917 161.349  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     145.535 139.376 162.136  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     145.362 139.677 163.501  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     146.507 140.196 164.266  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     147.564 139.352 164.645  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     148.655 139.850 165.366  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     148.708 141.199 165.716  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     147.672 142.051 165.345  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     146.588 141.548 164.628  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     145.606 142.393 164.277  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     143.211 140.763 165.746  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     143.806 139.717 165.449  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     144.143 138.832 166.248  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.050      3.387      4.321
+REMARK INTER + INTRA:          -8.362
+REMARK INTER:                  -8.236
+REMARK INTRA:                  -0.126
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     140.638 139.132 162.007  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     139.376 139.580 161.582  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     138.914 140.825 161.998  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     139.706 141.615 162.828  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     140.960 141.159 163.253  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     141.458 139.902 162.856  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     142.764 139.460 163.370  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     142.972 139.272 164.746  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     144.212 138.844 165.231  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     145.263 138.595 164.349  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     145.074 138.773 162.981  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     143.836 139.199 162.505  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     143.679 139.355 161.181  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     141.206 136.924 162.323  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     141.086 137.843 161.500  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     141.266 137.740 160.279  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.832      2.834      3.208
+REMARK INTER + INTRA:          -8.119
+REMARK INTER:                  -7.778
+REMARK INTRA:                  -0.340
+REMARK UNBOUND:                -0.488
+REMARK  Name = data/ligands/gpr35/denovo/DeNovo_8.pdb
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2  and  C1_4
+REMARK    2  A    between atoms: C6_9  and  C7_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  UNL     1     144.201 139.222 163.817  0.00  0.00    +0.000 A 
+ATOM      2  C2  UNL     1     143.722 138.622 162.640  0.00  0.00    +0.000 A 
+ATOM      3  C3  UNL     1     142.454 138.951 162.169  0.00  0.00    +0.000 A 
+ATOM      4  C4  UNL     1     141.674 139.871 162.866  0.00  0.00    +0.000 A 
+ATOM      5  C5  UNL     1     142.156 140.460 164.042  0.00  0.00    +0.000 A 
+ATOM      6  C6  UNL     1     143.432 140.148 164.551  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  C7  UNL     1     143.867 140.767 165.813  0.00  0.00    +0.000 A 
+ATOM      8  C8  UNL     1     143.236 140.450 167.027  0.00  0.00    +0.000 A 
+ATOM      9  C9  UNL     1     143.655 141.034 168.226  0.00  0.00    +0.000 A 
+ATOM     10  C10 UNL     1     144.713 141.942 168.232  0.00  0.00    +0.000 A 
+ATOM     11  C11 UNL     1     145.353 142.266 167.039  0.00  0.00    +0.000 A 
+ATOM     12  C12 UNL     1     144.930 141.680 165.848  0.00  0.00    +0.000 A 
+ATOM     13  F1  UNL     1     145.569 142.004 164.713  0.00  0.00    +0.000 F 
+ENDBRANCH   6   7
+BRANCH   1  15
+ATOM     14  O1  UNL     1     145.667 138.155 165.235  0.00  0.00    +0.000 OA
+ATOM     15  N1  UNL     1     145.552 138.874 164.231  0.00  0.00    +0.000 N 
+ATOM     16  O2  UNL     1     146.489 139.276 163.526  0.00  0.00    +0.000 OA
+ENDBRANCH   1  15
+TORSDOF 2
+ENDMDL

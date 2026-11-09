@@ -20,17 +20,13 @@ for name, score in docking_scores.items():
     mol = Chem.MolFromSmiles(ligands[name])
     mw, logp, tpsa = Descriptors.MolWt(mol), Descriptors.MolLogP(mol), Descriptors.TPSA(mol)
     hbd, hba = Lipinski.NumHDonors(mol), Lipinski.NumHAcceptors(mol)
-    
     penalty = 1.0
     if mw > 500 or logp > 5 or hbd > 5 or hba > 10: penalty = 0.5
     if tpsa > 140: penalty -= 0.2
     norm_dock = max(0.0, min(1.0, (score + 5) / -5))
     mpo_score = (0.7 * norm_dock) + (0.3 * penalty)
-    
-    data.append({
-        "Ligand": name, "Docking (kcal/mol)": score, "MW": round(mw, 1),
-        "LogP": round(logp, 2), "TPSA": round(tpsa, 1), "HBD": hbd, "HBA": hba, "MPO Score": round(mpo_score, 3)
-    })
+    data.append({"Ligand": name, "Docking (kcal/mol)": score, "MW": round(mw, 1),
+        "LogP": round(logp, 2), "TPSA": round(tpsa, 1), "HBD": hbd, "HBA": hba, "MPO Score": round(mpo_score, 3)})
 
 df = pd.DataFrame(data).sort_values(by="MPO Score", ascending=False)
 df.to_csv("results/gpr35/mpo_ranked_hits.csv", index=False)

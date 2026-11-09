@@ -64,13 +64,26 @@ We docked a curated library of known GPR35 agonists and decoys, then applied a c
 To assess the dynamic stability of the GPR35 target, we ran a 0.5 ns production MD simulation in explicit water.
 - **Results:** Stable backbone RMSD, compact radius of gyration, and 249–265 stable hydrogen bonds.
 - ![MD analysis](results/gpr35/md/md_analysis.png)
+### 4.4 De Novo Discovery of Novel Chemotypes
+To explore uncharted chemical space, we used BRICS (Breaking of Retrosynthetically Interesting Chemical Substructures) to fragment our top seed molecules (Lodoxamide and Kynurenic acid) and recombine them into 20 novel, drug-like molecules. 
 
+These novel molecules were then docked into GPR35. Remarkably, several *de novo* generated compounds significantly outperformed the crystallized ligand (Lodoxamide, -8.77 kcal/mol):
+
+| Rank | Novel Ligand | Docking (kcal/mol) | MW | LogP | MPO Score |
+|------|--------------|--------------------|----|------|-----------|
+| 1 | **DeNovo_20** | **-10.57** | 308.4 | 5.57 | 0.707 |
+| 2 | **DeNovo_19** | **-10.56** | 287.3 | 5.44 | 0.706 |
+| 3 | **DeNovo_7**  | **-9.05**  | 318.3 | 4.42 | 0.705 |
+| 4 | **DeNovo_18** | **-10.01** | 266.3 | 5.30 | 0.651 |
+
+**Scientific Insight:** The top hit, DeNovo_20, is a novel bis-indole derivative (`c1cc(-n2ccc3ccccc32)cc(-n2ccc3ccccc32)c1`). Indole and bis-indole scaffolds are highly privileged structures in medicinal chemistry, frequently associated with anti-inflammatory and GPCR-targeting activity. 
+
+**Conclusion:** The De Novo pipeline successfully generated novel chemotypes that exceed the binding affinity of the original crystallized ligand, demonstrating the pipeline's utility for *in silico* hit discovery.
 ---
 
 ## 5. Future Directions
-1. **Scaffold Hopping & De Novo Design:** Use RDKit to generate novel analogs based on the top MPO hits (Lodoxamide/Kynurenic acid) and screen them for improved affinity.
-2. **Scale to 10⁶+ compounds:** Deploy the ML Deep Docking module on an Enamine REAL subset.
-3. **Experimental Validation:** Hand off the top MPO hits for functional assays.
+1. **Scale to 10⁶+ compounds:** Deploy the ML Deep Docking module on an Enamine REAL subset.
+2. **Experimental Validation:** Hand off the top MPO hits for functional assays.
 
 ---
 

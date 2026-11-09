@@ -1,0 +1,54 @@
+REMARK  Name = gpr35_lodoxamide.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C02_4  and  C03_5
+REMARK    2  A    between atoms: C05_7  and  N06_8
+REMARK    3  A    between atoms: C07_9  and  C09_11
+REMARK    4  A    between atoms: C09_11  and  O10_12
+REMARK    5  A    between atoms: C14_15  and  N15_16
+REMARK    6  A    between atoms: C16_17  and  C18_19
+REMARK    7  A    between atoms: C18_19  and  O20_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C21 WYB C 401     145.541 139.185 160.703  0.00  0.00    +0.000 A 
+ATOM      2 CL13 WYB C 401     144.364 139.266 164.553  0.00  0.00    +0.000 Cl
+ATOM      3  C03 WYB C 401     146.910 139.328 160.798  0.00  0.00    +0.000 A 
+ATOM      4  C04 WYB C 401     147.510 139.449 162.039  0.00  0.00    +0.000 A 
+ATOM      5  C05 WYB C 401     146.735 139.430 163.181  0.00  0.00    +0.000 A 
+ATOM      6  C12 WYB C 401     145.366 139.287 163.081  0.00  0.00    +0.000 A 
+ATOM      7  C14 WYB C 401     144.767 139.177 161.845  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   8
+ATOM      8  N06 WYB C 401     147.350 139.550 164.486  0.00  0.00    +0.000 N 
+ATOM      9  C07 WYB C 401     147.027 140.672 165.345  0.00  0.00    +0.000 C 
+ATOM     10  O08 WYB C 401     147.534 140.761 166.409  0.00  0.00    +0.000 OA
+ATOM     11  H   WYB C 401     147.990 138.867 164.791  0.00  0.00    +0.000 HD
+BRANCH   9  12
+ATOM     12  C09 WYB C 401     146.045 141.743 164.879  0.00  0.00    +0.000 C 
+ATOM     13  O11 WYB C 401     146.444 142.657 164.115  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O10 WYB C 401     144.843 141.712 165.252  0.00  0.00    +0.000 OA
+ATOM     15  H   WYB C 401     144.547 141.030 165.822  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   5   8
+BRANCH   7  16
+ATOM     16  N15 WYB C 401     143.330 139.026 161.743  0.00  0.00    +0.000 N 
+ATOM     17  C16 WYB C 401     142.424 139.741 162.616  0.00  0.00    +0.000 C 
+ATOM     18  O17 WYB C 401     142.823 140.485 163.445  0.00  0.00    +0.000 OA
+ATOM     19  H   WYB C 401     142.960 138.420 161.061  0.00  0.00    +0.000 HD
+BRANCH  17  20
+ATOM     20  C18 WYB C 401     140.923 139.534 162.458  0.00  0.00    +0.000 C 
+ATOM     21  O19 WYB C 401     140.477 138.394 162.167  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O20 WYB C 401     140.135 140.499 162.620  0.00  0.00    +0.000 OA
+ATOM     23  H   WYB C 401     140.471 141.347 162.837  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+ENDBRANCH  17  20
+ENDBRANCH   7  16
+BRANCH   3  25
+ATOM     24  N01 WYB C 401     148.398 139.365 158.589  0.00  0.00    +0.000 NA
+ATOM     25  C02 WYB C 401     147.765 139.350 159.532  0.00  0.00    +0.000 C 
+ENDBRANCH   3  25
+TORSDOF 7

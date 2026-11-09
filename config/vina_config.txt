@@ -1,0 +1,13 @@
+receptor = data/structures/gpr35/gpr35_receptor.pdbqt
+ligand = data/structures/gpr35/gpr35_lodoxamide.pdbqt
+
+center_x = 145.081
+center_y = 139.934
+center_z = 162.850
+size_x = 18.263
+size_y = 14.263
+size_z = 17.820
+
+out = results/gpr35/lodoxamide_docked.pdbqt
+exhaustiveness = 8
+num_modes = 9
