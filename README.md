@@ -81,7 +81,7 @@ These novel molecules were then docked into GPR35. Remarkably, several *de novo*
 **Conclusion:** The De Novo pipeline successfully generated novel chemotypes that exceed the binding affinity of the original crystallized ligand, demonstrating the pipeline's utility for *in silico* hit discovery.
 ---
 ### 4.5 Workflow Automation: Deploying the Pipeline in KNIME
-
+![KNIME MPO Workflow](docs/images/knime_workflow.png)
 While the core algorithm for this project is written in Python, I also translated the MPO scoring and Lipinski filtering into a KNIME workflow (`knime/GPR35_MPO_Scoring.knwf`). 
 
 I did this for a few practical reasons. In a real R&D setting, a model is only useful if the whole team can actually use it. Python is great for flexibility, but it can be a "black box" for medicinal chemists or biologists who don't code. By moving this specific step into KNIME, anyone on the team can just drop in a CSV of docking results and get back a ranked, drug-like list without touching a terminal. 
