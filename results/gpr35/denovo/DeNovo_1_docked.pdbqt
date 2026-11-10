@@ -1,9 +1,9 @@
 MODEL 1
-REMARK VINA RESULT:    -7.314      0.000      0.000
-REMARK INTER + INTRA:          -8.129
-REMARK INTER:                  -7.742
-REMARK INTRA:                  -0.387
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.316      0.000      0.000
+REMARK INTER + INTRA:          -8.135
+REMARK INTER:                  -7.744
+REMARK INTRA:                  -0.391
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -11,31 +11,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     142.204 140.847 163.984  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     142.292 139.351 163.119  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     141.105 138.848 162.574  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     141.110 137.643 161.873  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     142.300 136.938 161.716  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     143.485 137.437 162.259  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     143.505 138.652 162.969  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     142.202 140.857 163.985  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     142.278 139.366 163.110  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     141.086 138.871 162.569  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     141.082 137.670 161.861  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     142.268 136.962 161.692  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     143.459 137.453 162.231  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     143.487 138.663 162.949  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     144.778 139.140 163.524  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     145.777 139.597 162.645  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     147.001 140.069 163.128  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     147.246 140.095 164.498  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     146.269 139.649 165.386  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     145.043 139.176 164.905  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     143.876 138.648 166.070  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     144.766 139.142 163.499  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     145.761 139.603 162.617  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     146.989 140.066 163.096  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     147.243 140.080 164.464  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     146.271 139.632 165.355  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     145.040 139.166 164.879  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     143.879 138.634 166.047  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 2
-REMARK VINA RESULT:    -7.302      0.065      4.698
-REMARK INTER + INTRA:          -8.116
-REMARK INTER:                  -7.750
-REMARK INTRA:                  -0.366
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.314      0.073      4.696
+REMARK INTER + INTRA:          -8.132
+REMARK INTER:                  -7.789
+REMARK INTRA:                  -0.343
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -43,31 +43,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     143.804 138.618 166.057  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     144.998 139.158 164.925  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     146.215 139.621 165.440  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     147.212 140.076 164.579  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     146.997 140.071 163.205  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     145.784 139.610 162.688  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     144.763 139.144 163.538  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     143.822 138.637 166.058  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     145.020 139.163 164.924  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     146.239 139.621 165.436  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     147.240 140.065 164.573  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     147.025 140.053 163.199  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     145.809 139.596 162.685  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     144.785 139.142 163.536  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     143.500 138.667 162.949  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     143.499 137.470 162.210  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     142.324 136.980 161.634  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     141.129 137.677 161.789  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     141.107 138.864 162.519  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     142.283 139.357 163.097  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     142.175 140.832 163.996  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     143.520 138.669 162.950  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     143.515 137.476 162.204  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     142.337 136.990 161.630  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     141.143 137.688 161.793  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     141.125 138.870 162.531  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     142.303 139.359 163.107  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     142.200 140.828 164.015  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 3
-REMARK VINA RESULT:    -7.212      1.459      4.868
-REMARK INTER + INTRA:          -8.021
-REMARK INTER:                  -7.827
-REMARK INTRA:                  -0.194
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.192      1.412      2.011
+REMARK INTER + INTRA:          -8.003
+REMARK INTER:                  -7.659
+REMARK INTRA:                  -0.344
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -75,31 +75,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     143.767 138.943 166.362  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     145.026 139.404 165.267  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     146.326 139.498 165.778  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     147.381 139.872 164.946  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     147.140 140.153 163.605  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     145.844 140.060 163.093  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     144.764 139.683 163.912  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     143.772 137.156 161.853  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     142.738 138.428 162.410  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     141.405 138.412 161.983  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     140.526 139.414 162.391  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     140.976 140.433 163.225  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     142.305 140.451 163.652  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     143.210 139.450 163.254  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     143.415 139.598 163.329  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     142.418 140.484 163.777  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     141.124 140.439 163.251  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     140.805 139.509 162.265  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     141.778 138.625 161.805  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     143.074 138.667 162.330  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     144.230 137.542 161.701  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     144.602 139.509 163.730  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     145.622 139.851 162.822  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     146.957 139.920 163.230  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     147.295 139.652 164.554  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     146.301 139.315 165.470  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     144.964 139.244 165.064  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     143.785 138.828 166.261  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 4
-REMARK VINA RESULT:    -7.197      1.835      2.503
-REMARK INTER + INTRA:          -8.005
-REMARK INTER:                  -7.944
-REMARK INTRA:                  -0.061
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.174      1.848      2.520
+REMARK INTER + INTRA:          -7.985
+REMARK INTER:                  -7.967
+REMARK INTRA:                  -0.018
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -107,31 +107,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     146.675 138.607 161.920  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     144.986 138.912 162.147  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     144.103 138.411 161.183  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     142.732 138.631 161.307  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     142.241 139.351 162.391  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     143.119 139.851 163.354  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     144.507 139.641 163.251  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     146.682 138.670 161.894  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     144.991 138.950 162.137  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     144.107 138.441 161.178  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     142.734 138.641 161.315  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     142.242 139.349 162.407  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     143.122 139.858 163.364  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     144.511 139.668 163.248  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     145.396 140.188 164.290  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     146.394 141.109 163.922  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     147.259 141.653 164.874  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     147.139 141.289 166.213  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     146.156 140.381 166.600  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     145.288 139.834 165.648  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     144.087 138.719 166.206  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     145.401 140.223 164.282  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     146.404 141.135 163.904  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     147.270 141.686 164.852  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     147.147 141.338 166.195  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     146.159 140.439 166.590  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     145.290 139.884 165.644  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     144.083 138.782 166.213  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 5
-REMARK VINA RESULT:    -7.180      1.834      5.018
-REMARK INTER + INTRA:          -7.987
-REMARK INTER:                  -7.944
-REMARK INTRA:                  -0.044
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.143      1.548      2.069
+REMARK INTER + INTRA:          -7.952
+REMARK INTER:                  -7.825
+REMARK INTRA:                  -0.126
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -139,31 +139,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     144.105 138.670 166.219  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     145.294 139.800 165.668  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     146.168 140.338 166.621  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     147.142 141.259 166.238  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     147.246 141.644 164.906  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     146.376 141.110 163.953  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     145.386 140.178 164.315  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     142.201 140.546 163.725  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     142.486 139.263 162.599  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     141.432 138.898 161.752  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     141.599 137.867 160.829  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     142.816 137.198 160.751  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     143.869 137.559 161.594  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     143.725 138.598 162.532  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     144.491 139.640 163.276  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     143.103 139.832 163.403  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     142.217 139.340 162.441  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     142.703 138.650 161.334  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     144.074 138.452 161.187  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     144.964 138.943 162.149  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     146.653 138.666 161.893  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     144.862 138.944 163.401  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     144.729 138.797 164.794  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     145.782 139.113 165.656  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     146.988 139.580 165.140  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     147.142 139.731 163.763  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     146.089 139.415 162.897  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     146.359 139.619 161.200  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 6
-REMARK VINA RESULT:    -7.173      2.083      3.105
-REMARK INTER + INTRA:          -7.980
-REMARK INTER:                  -7.810
-REMARK INTRA:                  -0.170
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.134      1.500      4.827
+REMARK INTER + INTRA:          -7.942
+REMARK INTER:                  -7.763
+REMARK INTRA:                  -0.180
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -171,31 +171,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     145.753 139.635 162.041  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     144.268 138.849 161.625  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     144.127 138.383 160.312  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     142.951 137.749 159.916  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     141.914 137.578 160.828  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     142.052 138.041 162.138  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     143.230 138.684 162.562  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     146.457 139.746 161.426  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     146.274 139.533 163.134  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     147.350 139.897 163.951  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     147.265 139.741 165.334  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     146.106 139.222 165.902  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     145.031 138.858 165.090  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     145.093 139.007 163.692  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     143.331 139.156 163.953  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     144.306 138.594 164.797  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     144.437 139.012 166.124  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     143.598 140.001 166.629  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     142.627 140.572 165.809  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     142.493 140.156 164.480  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     141.270 140.918 163.521  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     143.935 138.609 162.874  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     144.072 137.545 161.964  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     142.999 137.134 161.169  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     141.769 137.778 161.272  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     141.610 138.832 162.169  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     142.683 139.246 162.967  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     142.407 140.556 164.064  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 7
-REMARK VINA RESULT:    -7.171      2.044      4.275
-REMARK INTER + INTRA:          -7.977
-REMARK INTER:                  -7.830
-REMARK INTRA:                  -0.147
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.122      1.582      4.955
+REMARK INTER + INTRA:          -7.929
+REMARK INTER:                  -7.783
+REMARK INTRA:                  -0.146
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -203,31 +203,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     141.294 140.895 163.578  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     142.536 140.149 164.526  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     142.661 140.552 165.861  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     143.647 139.993 166.672  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     144.509 139.032 166.153  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     144.386 138.628 164.822  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     143.398 139.177 163.984  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     143.747 138.973 166.519  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     145.039 139.810 165.728  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     146.106 140.250 166.520  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     147.172 140.937 165.941  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     147.175 141.185 164.572  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     146.112 140.748 163.779  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     145.025 140.051 164.341  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     143.306 138.722 162.587  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     142.132 138.077 162.153  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     142.002 137.629 160.836  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     143.040 137.819 159.929  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     144.210 138.457 160.337  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     144.344 138.907 161.655  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     145.822 139.699 162.085  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     143.926 139.609 163.467  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     142.636 140.132 163.671  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     141.564 139.740 162.865  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     141.763 138.821 161.839  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     143.033 138.293 161.617  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     144.109 138.683 162.423  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     145.658 137.991 162.081  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 8
-REMARK VINA RESULT:    -7.155      1.494      2.033
-REMARK INTER + INTRA:          -7.961
-REMARK INTER:                  -7.811
-REMARK INTRA:                  -0.150
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -7.038      2.298      4.700
+REMARK INTER + INTRA:          -7.840
+REMARK INTER:                  -7.572
+REMARK INTRA:                  -0.268
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -235,31 +235,31 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     142.268 140.576 163.907  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     142.529 139.282 162.787  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     141.456 138.908 161.968  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     141.603 137.868 161.052  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     142.819 137.199 160.952  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     143.891 137.570 161.766  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     143.767 138.618 162.698  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     146.172 141.682 164.352  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     145.017 141.281 165.578  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     145.111 141.956 166.800  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     144.214 141.672 167.829  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     143.223 140.714 167.639  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     143.127 140.039 166.420  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     144.020 140.310 165.367  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     144.923 138.975 163.536  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     144.831 138.821 164.932  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     145.904 139.147 165.765  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     147.090 139.629 165.218  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     147.204 139.785 163.838  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     146.131 139.460 163.001  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     146.352 139.673 161.297  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     143.881 139.574 164.099  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     144.879 138.654 163.729  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     144.787 137.933 162.535  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     143.695 138.118 161.692  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     142.694 139.022 162.041  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     142.783 139.746 163.236  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     141.497 140.843 163.605  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
 MODEL 9
-REMARK VINA RESULT:    -7.063      2.295      3.213
-REMARK INTER + INTRA:          -7.864
-REMARK INTER:                  -7.547
-REMARK INTRA:                  -0.317
-REMARK UNBOUND:                -0.387
+REMARK VINA RESULT:    -6.934      2.615      3.839
+REMARK INTER + INTRA:          -7.731
+REMARK INTER:                  -7.377
+REMARK INTRA:                  -0.354
+REMARK UNBOUND:                -0.391
 REMARK  Name = data/ligands/gpr35/denovo/DeNovo_1.pdb
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
@@ -267,22 +267,22 @@ REMARK    1  A    between atoms: C6_7  and  C7_8
 REMARK                            x       y       z     vdW  Elec       q    Type
 REMARK                         _______ _______ _______ _____ _____    ______ ____
 ROOT
-ATOM      1 CL1  UNL     1     141.520 140.834 163.596  0.00  0.00    +0.000 Cl
-ATOM      2  C1  UNL     1     142.817 139.744 163.241  0.00  0.00    +0.000 A 
-ATOM      3  C2  UNL     1     142.743 139.018 162.047  0.00  0.00    +0.000 A 
-ATOM      4  C3  UNL     1     143.753 138.118 161.710  0.00  0.00    +0.000 A 
-ATOM      5  C4  UNL     1     144.837 137.942 162.564  0.00  0.00    +0.000 A 
-ATOM      6  C5  UNL     1     144.913 138.665 163.756  0.00  0.00    +0.000 A 
-ATOM      7  C6  UNL     1     143.906 139.580 164.116  0.00  0.00    +0.000 A 
+ATOM      1 CL1  UNL     1     146.191 138.623 164.970  0.00  0.00    +0.000 Cl
+ATOM      2  C1  UNL     1     144.750 138.925 164.060  0.00  0.00    +0.000 A 
+ATOM      3  C2  UNL     1     144.589 138.232 162.854  0.00  0.00    +0.000 A 
+ATOM      4  C3  UNL     1     143.453 138.439 162.073  0.00  0.00    +0.000 A 
+ATOM      5  C4  UNL     1     142.477 139.336 162.494  0.00  0.00    +0.000 A 
+ATOM      6  C5  UNL     1     142.635 140.029 163.696  0.00  0.00    +0.000 A 
+ATOM      7  C6  UNL     1     143.773 139.835 164.502  0.00  0.00    +0.000 A 
 ENDROOT
 BRANCH   7   8
-ATOM      8  C7  UNL     1     144.029 140.320 165.383  0.00  0.00    +0.000 A 
-ATOM      9  C8  UNL     1     143.159 140.009 166.444  0.00  0.00    +0.000 A 
-ATOM     10  C9  UNL     1     143.240 140.687 167.664  0.00  0.00    +0.000 A 
-ATOM     11  C10 UNL     1     144.194 141.684 167.845  0.00  0.00    +0.000 A 
-ATOM     12  C11 UNL     1     145.068 142.005 166.809  0.00  0.00    +0.000 A 
-ATOM     13  C12 UNL     1     144.989 141.329 165.586  0.00  0.00    +0.000 A 
-ATOM     14 CL2  UNL     1     146.114 141.777 164.349  0.00  0.00    +0.000 Cl
+ATOM      8  C7  UNL     1     143.897 140.587 165.761  0.00  0.00    +0.000 A 
+ATOM      9  C8  UNL     1     143.025 140.289 166.825  0.00  0.00    +0.000 A 
+ATOM     10  C9  UNL     1     143.107 140.978 168.038  0.00  0.00    +0.000 A 
+ATOM     11  C10 UNL     1     144.064 141.974 168.211  0.00  0.00    +0.000 A 
+ATOM     12  C11 UNL     1     144.940 142.282 167.172  0.00  0.00    +0.000 A 
+ATOM     13  C12 UNL     1     144.859 141.595 165.955  0.00  0.00    +0.000 A 
+ATOM     14 CL2  UNL     1     145.987 142.028 164.715  0.00  0.00    +0.000 Cl
 ENDBRANCH   7   8
 TORSDOF 1
 ENDMDL
