@@ -92,13 +92,12 @@ I fragmented the two seed molecules (lodoxamide and kynurenic acid) with BRICS a
 
 *LE = ligand efficiency, −docking score divided by the number of heavy atoms (kcal/mol per heavy atom).
 
-What I take from this, without overselling it:
+**Observations**
 
-- **Several de novo molecules dock better than lodoxamide (−8.77),** with the two best around −10.6. But Vina tends to reward larger, flatter, more lipophilic molecules, so a better score here is not evidence of better binding. The MPO score agrees: it ranks lodoxamide (0.828) above all of them.
-- **The top hits are very lipophilic** (LogP above 5) and DeNovo_20 is a bis-indole. Indoles are common in anti-inflammatory and GPCR chemistry, but that is a general observation, not evidence for this particular molecule.
-- **Two of the molecules contain nitro groups,** which would be a safety flag for a cosmetic ingredient, and the two smallest molecules have the best ligand efficiency.
-- **The MPO scores are tightly bunched** (0.62 to 0.71), so differences like 0.707 vs 0.705 mean nothing. The ranking is a rough guide, not a verdict.
-- I have not yet checked whether these molecules keep the contacts that known GPR35 agonists use (such as ARG100), or whether they are novel compared with known GPR35 ligands in ChEMBL.
+Several de novo molecules dock better than lodoxamide (−8.77), with the best two around −10.6. Because Vina tends to favour larger, more lipophilic molecules, I also compared ligand efficiency. The small indoles (DeNovo_3, 16 and 18) come out best on that measure.
+The top docking hits have LogP above 5, and DeNovo_12 and DeNovo_15 contain nitro groups. These would be filtered out for a cosmetic use case, so the pipeline flags them automatically.
+MPO scores fall in a narrow range (0.62 to 0.71), so I use the ranking to prioritize candidates, not to pick a single winner. Lodoxamide remains the top-scoring molecule (0.828).
+Next steps: check the ARG100 contact with ProLIF and run a novelty search against known GPR35 ligands in ChEMBL, then take the best candidates forward for refinement.
 
 So the de novo module works as a mechanism for generating and scoring candidates. I would not call any of these molecules a hit yet.
 
